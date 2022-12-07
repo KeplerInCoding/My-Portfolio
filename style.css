@@ -5,9 +5,13 @@
 .sidebar{
     position: absolute;
     height: 100vh;
-    width: 100px;
+    width: 150px;
     background-color: rgb(230, 125, 164);
     font-family:cursive;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 42px;
 }
 .sidebar nav li{
     list-style:none;
@@ -34,6 +38,215 @@
     display: flex;
     justify-content: space-around;
 }
-.devinfo{
+.devInfo{
+    display: flex;
+    justify-content: centre;
+    flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.moreabout {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(245, 55, 124);
+    font-weight: 500px;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.hello {
+    font-size: 85px;
+}
+
+.name {
+    font-size: 70px;
+    font-weight: bolder;
+    font: sans-serif;
+}
+
+.about {
+    font-size: 50px;
+}
+
+.devPic img {
+    height: 58vh;
+
+}
+.buttons button a {
+    text-decoration: none;
+    color: white;
+}
+
+.blogstitle {
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    margin: 30px 50px;
+}
+
+.blog1 {
+    padding: 10px;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.blogdescription {
+    margin: 45px;
+    font: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form {
+    margin: 100px 100px;
+    font-size: 30px;
+}
+
+.formtitle {
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.Email {
+    margin: 50px 250px;
+}
+
+.Contact {
+    margin: 50px 250px;
+}
+
+.Name1 {
+    margin: 50px 250px;
+}
+
+.Enquiry {
+    margin: 50px 250px;
+}
+
+.formcheck1 {
+    margin: 0 250px;
+
+}
+.buttonsend {
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(245, 55, 124);
+    font-weight: 500px;
+    font-size: 20px;
+    margin: 0 450px;
+    cursor: pointer;
+}
+
+.buttonsend:hover {
+    color: black;
+    background-color: white;
+}
+
+.formcheck1 {
+    font-size: medium;
+    margin: 0px 255px;
+}
+
+.aboutmetitle {
+    font-size: 50px;
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.aboutdescription {
+    font-size: 20px;
+    margin: 20px;
+    ont-family: 'Noto Sans', sans-serif;
+}
+
+.skillcontainer {
+    margin: 20px;
+}
+
+.python {
+    background-color: red;
+    width: 125px;
+    height: 12px;
+    border: 2px solid black;
+}
+
+.html {
+    background-color: rgb(0, 174, 255);
+    width: 400px;
+    border: 2px solid black;
+    height: 12px;
+}
+
+.css {
+    background-color: rgb(174, 0, 255);
+    border: 2px solid black;
+    width: 300px;
+    height: 12px;
+}
+.c {
+    background-color: rgb(255, 149, 0);
+    border: 2px solid black;
+    width: 100px;
+    height: 12px;
+}
+
+.ham {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    width: 43px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.cross {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 140px;
+    width: 33px;
+}
+
+@media (max-width:1000px) {
+    *{
+        background-color: rgb(235, 104, 104);
+    }
+    .devPic{
+        display: none;
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+    
 }
