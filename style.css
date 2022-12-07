@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    height: 100vh;
+    width: 100px;
+    background-color: rgb(230, 125, 164);
+    font-family:cursive;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:18px;
+    padding: 15px;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+}
+.main{
+    background-color:rgb(165,165,165);
+    width: 90vw;
+    padding: 56px;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: rgb(183, 134, 229);
+    width: 80vw;
+    height: 58vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+
+}
